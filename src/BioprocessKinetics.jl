@@ -36,3 +36,4 @@ end
 function haldane(c::AbstractFloat, kₛ::AbstractFloat, kᵢ::AbstractFloat)
     c / (kₛ + c * (1 + c / kᵢ))
 end
+end
